@@ -5704,7 +5704,7 @@ footer {
 		opacity: 1;
 	}
 	.gla_content img {
-
+		background-position: center;
 	}
 	.gla_team_simple {
 		padding: 0;

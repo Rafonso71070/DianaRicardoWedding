@@ -16,6 +16,9 @@ export class RegistryComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     $.getScript('assets/js/glanz_script.js');
+
+    var iframe = document.getElementById('test');
+    console.log(iframe)
   }
 
 }
